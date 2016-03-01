@@ -1,0 +1,1 @@
+Slice perform javascript code

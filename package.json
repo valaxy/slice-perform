@@ -1,0 +1,22 @@
+{
+  "name": "slice-perform",
+  "version": "0.1.0-dev",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valaxy/slice-perform.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valaxy/slice-perform/issues"
+  },
+  "homepage": "https://github.com/valaxy/slice-perform#readme",
+  "dependencies": {
+    "async": "^1.5.2"
+  }
+}
