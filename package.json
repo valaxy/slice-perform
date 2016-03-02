@@ -1,6 +1,6 @@
 {
   "name": "slice-perform",
-  "version": "0.1.0-dev",
+  "version": "0.1.0",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/valaxy/slice-perform.git"
   },
-  "author": "",
+  "author": "valaxy",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/valaxy/slice-perform/issues"
