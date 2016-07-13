@@ -1,6 +1,6 @@
 {
   "name": "slice-perform",
-  "version": "0.1.0",
+  "version": "0.1.0-dev",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -18,5 +18,9 @@
   "homepage": "https://github.com/valaxy/slice-perform#readme",
   "dependencies": {
     "async": "^1.5.2"
+  },
+  "devDependencies": {
+    "cjs": "github:valaxy/cjs#e3fb03abf7ed5e58adf0e54dfec01bf4bf65bd2e",
+    "requirejs": "^2.2.0"
   }
 }

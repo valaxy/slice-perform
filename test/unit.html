@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>单元测试</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+
+    <script src=""></script>
+    <script src="../node_modules/requirejs/require.js"></script>
+    <script src="./config.js"></script>
+    <script>
+        require(['cjs!test/unit'])
+    </script>
+</body>
+</html>

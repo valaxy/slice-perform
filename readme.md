@@ -1,3 +1,5 @@
+[![Dependency Status](https://david-dm.org/valaxy/slice-perform.svg?style=flat-square)](https://david-dm.org/valaxy/slice-perform)
+
 Split executing of javascript code into slice
 
 ## Normal Javascript 
