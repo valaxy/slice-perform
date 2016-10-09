@@ -1,9 +1,9 @@
-const slicePerform = require('../lib/index')
+import slicePerform, {_clock} from '../lib/index'
 const COUNT = 10000000
 
 
-var begin = slicePerform._clock()
+let begin = _clock()
 for (var index = 0; index < COUNT; index++);
-var duration = slicePerform._clock() - begin
+let duration = _clock() - begin
 
 console.log(index, `${duration / 1000000000}s`)

@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/valaxy/slice-perform#readme",
   "dependencies": {
-    "async": "^1.5.2"
+    "async": "^2.0.1"
   },
   "devDependencies": {
     "cjs": "github:valaxy/cjs#e3fb03abf7ed5e58adf0e54dfec01bf4bf65bd2e",

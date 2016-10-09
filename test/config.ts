@@ -1,4 +1,4 @@
-requirejs.config({
+require.config({
     baseUrl: '../',
     paths  : {
         cjs         : 'node_modules/cjs/cjs',

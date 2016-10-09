@@ -1,17 +1,18 @@
 const async = require('async')
 
-var nodeClock = function () {
+let nodeClock = function () {
     let time = process.hrtime()
     return time[0] * 1000000000 + time[1] // ns
 }
 
-var browserClock = function () {
+let browserClock = function () {
     return performance.now() * 1000000 // ns
 }
 
+let clock
 
 if (typeof window == 'object') {
-    var clock = browserClock
+    clock = browserClock
 } else {
     clock = nodeClock
 }
@@ -42,6 +43,6 @@ var slicePerform = function (sliceTimeInMS, waiTimeInMS, test, fn, callback) {
     )
 }
 
-slicePerform._clock = clock
+export var _clock = clock
 
-export = slicePerform
+export default slicePerform
